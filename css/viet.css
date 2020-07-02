@@ -1,0 +1,121 @@
+.main .container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main .title-of-list-service{
+    width: 100%;
+    max-height: 200px;
+    margin: 20px auto;
+}
+
+.main .underlined-title-list-service{
+    width: 5%;
+    height: 5px;
+    margin: 50px auto;
+    background-color: red;
+}
+
+.main .title-of-list-service > h3{
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main .img-of-place>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.main .wrap-all-list-service{
+    width: 100%;
+    margin-bottom:50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    z-index: 10;
+}
+
+.main .background-red{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+}
+
+.main .img-of-place,.wrap-link-service{
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.main .override-img{
+    position: absolute;
+    width: 100%;
+    max-height: 10%;
+    text-align: center;
+    bottom: 15px;
+}
+
+.main .img-title{
+    font-weight: 500;
+    color: white;
+    font-size: 1.7em;
+}
+
+.main .img-of-place,.wrap-img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.main .img-of-place>img,.link-service>img, .wrap-img>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.main .content-under-title{
+    width: 60%;
+    max-height: 100px;
+    margin: 30px auto;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.main .wrap-all-img-place{
+    max-width: 100%;
+    max-height: 1200px;
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+
+#towCol1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#towCol2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.main .text-over-img{
+    width: 100%;
+    max-height: 20%;
+    position: absolute;
+    top: 45%;
+}
+
+.main .text-over-img>h3{
+    color: white;
+    font-weight: 500;
+    font-size: 1.8em;
+    text-align: center;
+}
