@@ -36,6 +36,7 @@ a{
     height: 100%;
 }
 .hd-logo{
+    background: linear-gradient(to bottom right, #d92329, #b61f24, #6f0e11, black,black,black);
     width: 20%;
     height: 95%;
 }
@@ -91,6 +92,7 @@ ul li{
     background-image: linear-gradient(to right,black,red);
 }
 .hd-logo a img{
-    width: 100%;
+    width: 50%;
+    margin-left: 50px;
     height: 100%;
 }
