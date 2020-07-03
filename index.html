@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/viet.css">
+    <link rel="stylesheet" type="text/css" href="libs/nivo-slider/nivo-slider.css">
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="libs/nivo-slider/themes/default/default.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <script type="text/javascript" src="Js/jQuery.js"></script>
     <script type="text/javascript" src="Js/index1.js"></script>
@@ -14,11 +17,11 @@
 </head>
 <body>
     <header class="header">
-        <div class="container hd-container">
+        <div class="content hd-container">
             <div class="hd-logo"><a href="#"><img src="image/viet/logo.png" alt="anh"/></a> </div>
             <div class="menu">
                 <ul class="hd-list-menu">
-                    <li class=""><a href="#">Trang chủ</a></li>
+                    <li class=""><a href="#" style="border-bottom: 2px solid red; padding-bottom: 5px;">Trang chủ</a></li>
                     <li class="hd-menu place"><a href="#">Câu lạc bộ</a>
                         <ul class="Dropdown list-place">
                             <li><a href="#">TP. Hồ Chí Minh</a></li>
@@ -67,15 +70,26 @@
                             <li><a href="#">Câu Chuyện Thành Công</a> </li>
                         </ul>
                     </li>
-                    <li style="margin: 0 10px"><a href="#">Lịch Học</a></li>
+                    <li style="margin: 0 20px"><a href="#">Lịch Học</a></li>
                     <li><a href="#">Góp ý - Phản Hồi</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
-    <section class="main">
-        <div class="container">
+    <section class="main row">
+        <div class="content">
+            <div class="banner">
+                <div class="theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <a href="#"><img src="image/banners/baner1.jpg" alt="anh"/></a>
+                        <a href="#"><img src="image/banners/baner2.jpg" alt="anh"/></a>
+                        <a href="#"><img src="image/banners/baner3.jpg" alt="anh"/></a>
+
+                    </div>
+                </div>
+            </div>
+
             <div class="title-of-list-service"><h3>Các dịch vụ luyện tập và<br>
                 những cách giảm cân hiệu quả</h3></div>
             <div class="underlined-title-list-service"></div>
@@ -233,6 +247,14 @@
     </footer>
 
     <script type="text/javascript" src="Js/index1.js"></script>
+    <script type="text/javascript" src="libs/nivo-slider/demo/scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="libs/nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+
 
 </body>
 </html>
