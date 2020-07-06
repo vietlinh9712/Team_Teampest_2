@@ -32,7 +32,7 @@
             <div class="menu">
                 <ul class="hd-list-menu">
                     <li class=""><a href="#" style="border-bottom: 2px solid red; padding-bottom: 5px;">Trang chủ</a></li>
-                    <li class="hd-menu place"><a href="#">Câu lạc bộ</a>
+                    <li class="hd-menu"><a href="#">Câu lạc bộ</a>
                         <ul class="Dropdown list-place">
                             <li><a href="#">TP. Hồ Chí Minh</a></li>
                             <li><a href="#">TP. Hà Nội</a> </li>
@@ -44,7 +44,7 @@
                             <li><a href="#">Cần Thơ</a> </li>
                         </ul>
                     </li>
-                    <li class="hd-menu service"><a href="#">Dịch Vụ</a>
+                    <li class="hd-menu"><a href="#">Dịch Vụ</a>
                         <ul class="Dropdown list-service" style="width: 200px">
                             <li><a href="#">Group Fitness</a></li>
                             <li><a href="#">Giảm Căng Cơ</a></li>
@@ -56,7 +56,7 @@
                             <li><a href="#">Giảm Cân</a></li>
                         </ul>
                     </li>
-                    <li class="hd-menu blog"><a href="#">Blog</a>
+                    <li class="hd-menu"><a href="#">Blog</a>
                         <ul class="Dropdown list-blog">
                             <li><a href="#">Blog Trang Chủ</a></li>
                             <li><a href="#">Video</a></li>
@@ -70,7 +70,7 @@
                             <li><a href="#">Cộng Đồng</a></li>
                         </ul>
                     </li>
-                    <li class="hd-menu member"><a href="#">Hội Viên</a>
+                    <li class="hd-menu"><a href="#">Hội Viên</a>
                         <ul class="Dropdown list-member" style="width: 250px">
                             <li><a href="#">Hội Viên California & Yoga</a> </li>
                             <li><a href="#">Hội Viên Centuryon</a> </li>
@@ -89,14 +89,12 @@
 
     <section class="main row">
         <div class="content">
-            <div class="wrap">
-                <div class="banner">
-                    <div class="theme-default">
-                        <div id="slider" class="nivoSlider">
-                            <a href="#"><img src="image/banners/baner1.jpg" alt="anh"/></a>
-                            <a href="#"><img src="image/banners/baner2.jpg" alt="anh"/></a>
-                            <a href="#"><img src="image/banners/baner3.jpg" alt="anh"/></a>
-                        </div>
+            <div class="banner">
+                <div class="theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <a href="#"><img src="image/banners/baner1.jpg" alt="anh"/></a>
+                        <a href="#"><img src="image/banners/baner2.jpg" alt="anh"/></a>
+                        <a href="#"><img src="image/banners/baner3.jpg" alt="anh" style="height: 100%;"/></a>
                     </div>
                 </div>
             </div>
@@ -628,6 +626,34 @@
     <script src="Js/jQuery.js"></script>
     <script src="Js/bootstrap.js"></script>
     <script src="Js/validator.js"></script>
+    <script type="text/javascript" src="libs/nivo-slider/demo/scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="libs/nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                effect:'random',
+                slices: 15,
+                boxCols: 8,
+                boxRows: 4,
+                animSpeed: 500,
+                pauseTime: 3000,
+                startSlide: 0,
+                directionNav:true,
+                controlNav:true,
+                controlNavThumbs:false,
+                pauseOnHover:true,
+                manualAdvance:false,
+                prevText:'Prev',
+                nextText:'Next',
+                randomStart:false,
+                beforeChange:function(){},
+                afterChange:function(){},
+                slideshowEnd:function(){},
+                lastSlide:function(){},
+                afterLoad:function(){}
+            });
+        });
+    </script>
 
 <!-- FOOTER -->
 </body>
