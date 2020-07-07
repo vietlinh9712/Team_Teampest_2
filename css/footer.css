@@ -28,37 +28,28 @@ image{
 .ad1{
     margin: 20px auto;
 }
-.ad1 a img:hover{
+.ad a img:hover{
     border: solid 5px red;
     border-radius: 50%;
 }
-.ad2 a img:hover{
-    border: solid 5px red;
-    border-radius: 50%;
-}
+
 .ad2{
     margin: 50px auto;
 }
 .cmt{
     margin-top: 10px;
 }
-.ad1 a{
+.ad a{
     text-decoration: none;
     color: darkgrey;
 }
-.ad2 a{
+.ad a{
     text-decoration: none;
     color: darkgrey;
 }
-.ad1 a:hover{
+.ad a:hover{
     color: white;
     text-decoration: none;
-    font-size: 20px;
-}
-.ad2 a:hover{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
 }
 .col{
     color: darkgrey;
