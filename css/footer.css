@@ -22,14 +22,16 @@ image{
 }
 .ad{
     /*background-image: url("/image/bg-celeb.jpg");*/
-    background-color: black;
+    /*background-color: black;*/
     background-size: cover;
+
 }
 .ad1{
     margin: 20px auto;
 }
 .ad a img:hover{
     border: solid 5px red;
+    transition: 0.3s;
     border-radius: 50%;
 }
 
@@ -231,4 +233,15 @@ footer .icon i{
     .container-fluid.page{
         top:29px !important;
     }
+}
+svg{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top:7px;
+    left: 5px;
+    z-index: 1000;
+}
+.form-group{
+    position: relative;
 }
