@@ -22,7 +22,7 @@ image{
 }
 .ad{
     /*background-image: url("/image/bg-celeb.jpg");*/
-    /*background-color: black;*/
+    background-color: black;
     background-size: cover;
 
 }
@@ -60,7 +60,6 @@ image{
     font-size: 30px;
     font-weight: 700;
     float: left;
-    width: 100%;
     margin: 70px 20px 30px 20px;
 }
 
