@@ -26,6 +26,7 @@ img{
 }
 a{
     text-decoration: none;
+    outline: none;
 }
 .header{
     background-color: black;
@@ -55,6 +56,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hd-menu > a{
+    padding: 15px 0;
 }
 
 ul li{
@@ -108,4 +112,8 @@ ul li{
 li a:hover{
     color: white;
     text-decoration: none;
+}
+.header li a:visited{
+    color: white;
+    text-decoration: underline black;
 }
