@@ -299,10 +299,118 @@ hr.short-red-line{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-
-
-
-
-
-
-
+.quan .q img{
+    width: 100%;
+    height: 150px;
+}
+.q a img:hover{
+    border: solid 4px red;
+}
+.tphcm{
+    display: none;
+}
+.tphn{
+    display: none;
+}
+.danang{
+    display: none;
+}
+.note{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #0f0f0f;
+}
+.submenu{
+    border: solid 1px black;
+    margin: 0 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+.submenu a:hover{
+    text-decoration: underline;
+    color: #0f0f0f;
+}
+.buttoncity{
+    padding: 15px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.text{
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    color: white;
+    font-size: 30px;
+    display: block;
+}
+.lichtap{
+    display: none;
+    border: solid 1px black;
+    margin: 0 150px;
+    border-radius: 5px;
+}
+.lichtap a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0f0f0f;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 5px;
+}
+.lichtap a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+.btnt{
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right,#e8353c 50%,#e10000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+}
+.btnt{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 50px;
+}
+.btnt a{
+    color: white;
+    text-decoration: none;
+}
+.btnt a:hover{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.check{
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.chontp{
+    background-color: #0f0f0f;
+    margin: 0 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.chontp a{
+    color: white;
+}
