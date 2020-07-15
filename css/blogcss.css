@@ -46,6 +46,7 @@
     margin-top: 150px;
 }
 .line{
+    width: 100%;
     margin-left: 60px;
     background-color: red;
     height: 2px;
@@ -73,7 +74,7 @@
 .blog-videos .cate-group li:nth-child(2) a:hover{
     color: red;
 }
-.blog-videos .cate-group li a div{
+.circle{
     margin-top: 8px;
     margin-right: 10px;
     background-color: red;
@@ -94,5 +95,37 @@
     color: red;
     text-decoration: underline red;
 }
-
-
+.blog-link-img{
+    height: 95%;
+    width: 100%;
+}
+.blog-link-video a:first-child{
+    display: flex;
+    float: left;
+    color: black;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.blog-link-video span{
+    font-size: 18px;
+}
+.blog-link-video a:nth-child(3){
+    color: black;
+}
+.blog-link-video a:nth-child(4){
+    margin-top: 20px;
+}
+.blog-article-helpful .cate-group li:nth-child(2) a,
+.blog-article-helpful .cate-group li:nth-child(3) a{
+    display: flex;
+    float: left;
+    font-weight: 600;
+    color: black;
+}
+.blog-article-helpful .cate-group li:nth-child(3) a h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+.blog-article-helpful .cate-group li:nth-child(2) a:hover{
+    color: red;
+}
